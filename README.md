@@ -4,7 +4,7 @@ This starter code is intended for use with the Redux Side Effects with Thunk Vid
 
 ## Getting Started
 
-1. Ensure you have Node.js installed (version 8 or later). Node.js can be downloaded from [http://www.nodejs.org](http://www.nodejs.org).
+**Step 1.** Ensure you have Node.js installed (version 8 or later). Node.js can be downloaded from [http://www.nodejs.org](http://www.nodejs.org).
 
 To verify you Node.js version, open a terminal window (Windows Command Prompt on Windows) and run the following command:
 
@@ -14,11 +14,11 @@ node -v
 
 The version number should be 8 or higher. At the time of video recording the latest Node.js version was 10.9.0.
 
-2. There are two ways to download this repository, via Git Clone and a Zip file archive. For this course, I recommend the Zip file archive as your changes will not be submitted as pull requests for enhances to respository as a whole.
+**Step 2.** There are two ways to download this repository, via Git Clone and a Zip file archive. For this course, I recommend the Zip file archive as your changes will not be submitted as pull requests for enhances to respository as a whole.
 
 To download the zip file, click the green button labeled "Clone or download" near the upper right-hand part of this web page. A small pane will appear with the words "Download ZIP" towards the button. Click the link "Download ZIP" to download the archive. Once downloaded, extract the zip archive on your computer. Be sure to remember where you unzip it so you can find it in the next step. Generally, I recommend extracting the archive in the usual place where you manage project files on your system.
 
-3. Once extracted, open a terminal window  (Windows Command Prompt on Windows) and change to the folder where you extracted the archive. In the folder there should be a **package.json** file. From that folder run the following command:
+**Step 3.** Once extracted, open a terminal window  (Windows Command Prompt on Windows) and change to the folder where you extracted the archive. In the folder there should be a **package.json** file. From that folder run the following command:
 
 ```bash
 npm install
@@ -27,7 +27,7 @@ npm install
 
 This will install all of the NPM packages needed to run the project (an Internet connection is required).
 
-4. To run the project, type the following command:
+**Step 4.** To run the project, type the following command:
 
 ```bash
 npm start
@@ -35,7 +35,7 @@ npm start
 
 The web page located at [http://localhost:3000](http://localhost:3000) should load in your default web browser. If it does not (or you wish to use another browser), open the browser you desire to use and navigate to the link.
 
-5. Open the editor of your choice to begin editing the files in the folder to follow along with the video.
+**Step 5.** Open the editor of your choice to begin editing the files in the folder to follow along with the video.
 
 ## Troubleshooting
 
