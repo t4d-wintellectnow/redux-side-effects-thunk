@@ -19,9 +19,9 @@ export class WidgetTool extends React.Component {
   render() {
     return <React.Fragment>
       <WidgetTable widgets={this.props.widgets} editWidgetId={this.props.editWidgetId}
-        deleteWidget={this.props.deleteWidget} editWidget={this.props.editWidget}
-        saveWidget={this.props.replaceWidget} cancelWidget={this.props.cancelEditWidget} />
-      <WidgetForm onSubmit={this.props.appendWidget} buttonText="Add Widget" />
+        onDeleteWidget={this.props.deleteWidget} onEditWidget={this.props.editWidget}
+        onSaveWidget={this.props.replaceWidget} onCancelWidget={this.props.cancelEditWidget} />
+      <WidgetForm onSubmitWidget={this.props.appendWidget} buttonText="Add Widget" />
     </React.Fragment>
   }
 }

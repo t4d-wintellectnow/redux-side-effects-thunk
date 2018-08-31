@@ -1,7 +1,7 @@
-button:nth-child(2) {
+.widget-edit-row button:nth-child(2) {
   margin-left: 4px;
 }
 
-input, textarea {
+.widget-edit-row input, textarea {
   width: 75px;
 }

@@ -6,19 +6,21 @@ import { WidgetViewRow, WidgetEditRow } from './';
 
 export const WidgetTable = props => <table>
   <thead>
-    <th>Id</th>
-    <th><label htmlFor="edit-widget-name">Name</label></th>
-    <th><label htmlFor="edit-widget-description">Description</label></th>
-    <th><label htmlFor="edit-widget-color">Color</label></th>
-    <th><label htmlFor="edit-widget-size">Size</label></th>
-    <th><label htmlFor="edit-widget-quantity">Quantity</label></th>
-    <th><label htmlFor="edit-widget-price">Price</label></th>
-    <th>Actions</th>
+    <tr>
+      <th>Id</th>
+      <th><label htmlFor="edit-widget-name">Name</label></th>
+      <th><label htmlFor="edit-widget-description">Description</label></th>
+      <th><label htmlFor="edit-widget-color">Color</label></th>
+      <th><label htmlFor="edit-widget-size">Size</label></th>
+      <th><label htmlFor="edit-widget-quantity">Quantity</label></th>
+      <th><label htmlFor="edit-widget-price">Price</label></th>
+      <th>Actions</th>
+    </tr>
   </thead>
   <tbody>
     {props.widgets.map(w => w.id === props.editWidgetId
-      ? <WidgetEditRow widget={w} onSaveWidget={props.onSaveWidget} onCancelWidget={props.onCancelWidget} />
-      : <WidgetViewRow widget={w} onEditWidget={props.onEditWidget} onDeleteWidget={props.onDeleteWidget} />)}
+      ? <WidgetEditRow key={w.id} widget={w} onSaveWidget={props.onSaveWidget} onCancelWidget={props.onCancelWidget} />
+      : <WidgetViewRow key={w.id} widget={w} onEditWidget={props.onEditWidget} onDeleteWidget={props.onDeleteWidget} />)}
   </tbody>
 </table>;
 
