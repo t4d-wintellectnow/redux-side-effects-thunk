@@ -2,11 +2,13 @@
 
 This starter code is intended for use with the Redux Side Effects with Thunk Video Course on WintellectNOW.
 
+Note: To refer to the terminal on Mac and Linux as well as the Windows Command Prompt on Windows, the word **terminal** is used.
+
 ## Getting Started
 
 **Step 1.** Ensure you have Node.js installed (version 8 or later). Node.js can be downloaded from [http://www.nodejs.org](http://www.nodejs.org).
 
-To verify you Node.js version, open a terminal window (Windows Command Prompt on Windows) and run the following command:
+To verify you Node.js version, open a terminal window and run the following command:
 
 ```bash
 node -v
@@ -18,7 +20,7 @@ The version number should be 8 or higher. At the time of video recording the lat
 
 To download the zip file, click the green button labeled "Clone or download" near the upper right-hand part of this web page. A small pane will appear with the words "Download ZIP" towards the button. Click the link "Download ZIP" to download the archive. Once downloaded, extract the zip archive on your computer. Be sure to remember where you unzip it so you can find it in the next step. Generally, I recommend extracting the archive in the usual place where you manage project files on your system.
 
-**Step 3.** Once extracted, open a terminal window  (Windows Command Prompt on Windows) and change to the folder where you extracted the archive. In the folder there should be a **package.json** file. From that folder run the following command:
+**Step 3.** Once extracted, open a terminal window and change to the folder where you extracted the archive. In the folder there should be a **package.json** file. From that folder run the following command:
 
 ```bash
 npm install
@@ -27,7 +29,7 @@ npm install
 
 This will install all of the NPM packages needed to run the project (an Internet connection is required).
 
-**Step 4.** To run the project, type the following command:
+**Step 4.** To run the project, type the following command from the terminal window:
 
 ```bash
 npm start
@@ -35,7 +37,7 @@ npm start
 
 The web page located at [http://localhost:3000](http://localhost:3000) should load in your default web browser. If it does not (or you wish to use another browser), open the browser you desire to use and navigate to the link.
 
-**Step 5.** Open the editor of your choice to begin editing the files in the folder to follow along with the video.
+**Step 5.** Open the editor of your choice to begin editing the files in the folder to follow along with the video. For the course, I recommend Visual Studio Code ([http://code.visualstudio.com](http://code.visualstudio.com)) but any editor may be used. Editors with support for JSX syntax as well as include a built-in file tree and a terminal window are preferred.
 
 ## Troubleshooting
 
