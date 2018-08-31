@@ -46,7 +46,6 @@ The web page located at [http://localhost:3000](http://localhost:3000) should lo
 - Many times students will assume their Node.js version is sufficient and not check the version installed or install a newer version. If you have problems with any of the above "Getting Started" steps, please double check the Node.js version as described above.
 
 - On work computers many students are required to use an older version of Node.js for current/legacy development and are hesitant to upgrade their Node.js version. To solve this problem, there are tools which support the installation of multiple Node.js versions and provide convenient commands for switching between the different versions. I personally use NVM on Linux with great success. Also, I have used NVM on macOS and it works great too. I have not used the one for Windows. While these are great tools, use them at your own risk.
-
  - Mac & Linux: [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
  - Windows: [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
 
