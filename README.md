@@ -41,7 +41,7 @@ The web page located at [http://localhost:3000](http://localhost:3000) should lo
 
 ## Troubleshooting
 
-- On some computers the port 3000 is already in use by another application. To change this application to another port, edit the **PORT** value specified in the **start** entry in the **scripts** section of the **package.json** file.
+- On some computers the port 3000 is already in use by another application. To change this application to another port, edit the **PORT** value specified in the **start** entry in the **scripts** section of the **package.json** file. Try port values such as 4000, 5000, 3030, 4040 and 5050. Keep it simple.
 
 - Many times students will assume their Node.js version is sufficient and not check the version or install a newer version. If you have problems, please double check the Node.js version as described above.
 
