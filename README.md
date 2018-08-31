@@ -1,10 +1,11 @@
-# Redux Side Effects with Thunk Video Course Starter Project
+# Redux Side Effects with Thunk
+## Video Course Starter Project
 
 This starter code is intended for use with the Redux Side Effects with Thunk Video Course on WintellectNOW.
 
 Note: To refer to the terminal on Mac and Linux as well as the Windows Command Prompt on Windows, the word **terminal** is used.
 
-## Getting Started
+### Getting Started
 
 **Step 1.** Ensure you have Node.js installed (version 8 or later). Node.js can be downloaded from [http://www.nodejs.org](http://www.nodejs.org).
 
@@ -39,7 +40,7 @@ The web page located at [http://localhost:3000](http://localhost:3000) should lo
 
 **Step 5.** Open the editor of your choice to begin editing the files in the folder to follow along with the video. For the course, we recommend Visual Studio Code ([http://code.visualstudio.com](http://code.visualstudio.com)) but any editor may be used. Editors with support for JSX syntax as well as include a built-in file tree and a terminal window are preferred.
 
-## Troubleshooting
+### Troubleshooting
 
 - On some computers the port 3000 is already in use by another application. To change this application to another port, edit the **PORT** value specified in the **start** entry in the **scripts** section of the **package.json** file. Try port values such as 4000, 5000, 3030, 4040 and 5050. Keep it simple.
 
