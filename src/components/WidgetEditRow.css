@@ -1,0 +1,7 @@
+button:nth-child(2) {
+  margin-left: 4px;
+}
+
+input, textarea {
+  width: 75px;
+}

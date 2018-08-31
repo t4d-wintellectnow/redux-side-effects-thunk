@@ -1,0 +1,2 @@
+export const onStringChange = component => evt => component.setState({ [ evt.name ]: String(evt.value) });
+export const onNumberChange = component => evt => component.setState({ [ evt.name ]: Number(evt.value) });
