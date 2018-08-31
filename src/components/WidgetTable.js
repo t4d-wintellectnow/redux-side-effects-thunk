@@ -1,10 +1,12 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 
+import './WidgetTable.css';
+
 import { widgetsPropType, editWidgetIdPropType } from '../propTypes';
 import { WidgetViewRow, WidgetEditRow } from './';
 
-export const WidgetTable = props => <table>
+export const WidgetTable = props => <table className="widget-table">
   <thead>
     <tr>
       <th>Id</th>

@@ -4,3 +4,4 @@ export { WidgetTable } from './WidgetTable';
 export { WidgetTool } from './WidgetTool';
 export { WidgetToolContainer } from './WidgetToolContainer';
 export { WidgetForm } from './WidgetForm';
+export { ToolHeader } from './ToolHeader';

@@ -43,7 +43,7 @@ export class WidgetForm extends React.Component {
   }
 
   render() {
-    return <form>
+    return <form className="widget-form">
       <div>
         <label htmlFor={this.formControlName('widget-name')}>Name:</label>
         <input type="text" id={this.formControlName('widget-name')} name="name"

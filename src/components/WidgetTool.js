@@ -1,8 +1,10 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 
+import './WidgetTool.css';
+
 import { widgetsPropType, editWidgetIdPropType } from '../propTypes';
-import { WidgetTable, WidgetForm } from './';
+import { ToolHeader, WidgetTable, WidgetForm } from './';
 
 export class WidgetTool extends React.Component {
 
@@ -18,6 +20,7 @@ export class WidgetTool extends React.Component {
 
   render() {
     return <React.Fragment>
+      <ToolHeader headerText="Widget Tool" />
       <WidgetTable widgets={this.props.widgets} editWidgetId={this.props.editWidgetId}
         onDeleteWidget={this.props.deleteWidget} onEditWidget={this.props.editWidget}
         onSaveWidget={this.props.replaceWidget} onCancelWidget={this.props.cancelEditWidget} />

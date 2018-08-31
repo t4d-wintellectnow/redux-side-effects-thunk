@@ -1,0 +1,14 @@
+table.widget-table {
+
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.widget-table thead th,
+table.widget-table tbody td {
+  padding: 4px;
+}
+
+table.widget-table tbody td {
+  border-top: 1px solid black;
+}
