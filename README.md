@@ -16,7 +16,7 @@ node -v
 
 The version number should be 8 or higher. At the time of video recording the latest Node.js version was 10.9.0.
 
-**Step 2.** There are two ways to download this repository, via Git Clone and a Zip file archive. For this course, I recommend the Zip file archive as your changes will not be submitted as pull requests for enhances to respository as a whole.
+**Step 2.** There are two ways to download this repository, via Git Clone and a Zip file archive. For this course, I recommend the Zip file archive as your changes will not be submitted as pull requests for enhancements to respository as a whole.
 
 To download the zip file, click the green button labeled "Clone or download" near the upper right-hand part of this web page. A small pane will appear with the words "Download ZIP" towards the button. Click the link "Download ZIP" to download the archive. Once downloaded, extract the zip archive on your computer. Be sure to remember where you unzip it so you can find it in the next step. Generally, I recommend extracting the archive in the usual place where you manage project files on your system.
 
