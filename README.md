@@ -1,4 +1,4 @@
-# Redux Side Effects with Thunk <br><small>Video Course Starter Project</small>
+# Redux Side Effects with Thunk Starter Project
 
 This starter code is intended for use with the Redux Side Effects with Thunk Video Course on WintellectNOW.
 
