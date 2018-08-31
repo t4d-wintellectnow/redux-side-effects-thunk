@@ -2,6 +2,7 @@
   "name": "redux-side-effects-thunk",
   "version": "0.1.0",
   "private": true,
+  "license": "apache-2.0",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",

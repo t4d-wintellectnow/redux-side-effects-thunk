@@ -43,9 +43,9 @@ The web page located at [http://localhost:3000](http://localhost:3000) should lo
 
 - On some computers the port 3000 is already in use by another application. To change this application to another port, edit the **PORT** value specified in the **start** entry in the **scripts** section of the **package.json** file. Try port values such as 4000, 5000, 3030, 4040 and 5050. Keep it simple.
 
-- Many times students will assume their Node.js version is sufficient and not check the version or install a newer version. If you have problems, please double check the Node.js version as described above.
+- Many times students will assume their Node.js version is sufficient and not check the version installed or install a newer version. If you have problems with any of the above "Getting Started" steps, please double check the Node.js version as described above.
 
-- On work computers many students are required to use an older version of Node.js for current/legacy development and are hesitant to upgrade their Node.js version. To solve this problem, there are tools which support the installation of multiple Node.js versions and convenient tools for switching between them. I personally use NVM on Linux with great success. Also, I have used NVM on macOS and it works great too. I have not used the one for Windows. While these are great tools, use them at your own risk.
+- On work computers many students are required to use an older version of Node.js for current/legacy development and are hesitant to upgrade their Node.js version. To solve this problem, there are tools which support the installation of multiple Node.js versions and provide convenient commands for switching between the different versions. I personally use NVM on Linux with great success. Also, I have used NVM on macOS and it works great too. I have not used the one for Windows. While these are great tools, use them at your own risk.
 
  - Mac & Linux: [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
  - Windows: [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
