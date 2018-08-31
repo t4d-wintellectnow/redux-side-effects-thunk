@@ -35,9 +35,9 @@ This will install all of the NPM packages needed to run the project (an Internet
 npm start
 ```
 
-The web page located at [http://localhost:3000](http://localhost:3000) should load in your default web browser. If it does not (or you wish to use another browser), open the browser you desire to use and navigate to the link.
+The web page located at [http://localhost:3000](http://localhost:3000) should load in your default web browser. If it does not (or you wish to use another browser), open the browser you desire to use and navigate to the link. We recommend using Google Chrome (Windows & Mac) or Google Chromium (Linux) for developing the project.
 
-**Step 5.** Open the editor of your choice to begin editing the files in the folder to follow along with the video. For the course, I recommend Visual Studio Code ([http://code.visualstudio.com](http://code.visualstudio.com)) but any editor may be used. Editors with support for JSX syntax as well as include a built-in file tree and a terminal window are preferred.
+**Step 5.** Open the editor of your choice to begin editing the files in the folder to follow along with the video. For the course, we recommend Visual Studio Code ([http://code.visualstudio.com](http://code.visualstudio.com)) but any editor may be used. Editors with support for JSX syntax as well as include a built-in file tree and a terminal window are preferred.
 
 ## Troubleshooting
 
@@ -45,7 +45,7 @@ The web page located at [http://localhost:3000](http://localhost:3000) should lo
 
 - Many times students will assume their Node.js version is sufficient and not check the version installed or install a newer version. If you have problems with any of the above "Getting Started" steps, please double check the Node.js version as described above.
 
-- On work computers many students are required to use an older version of Node.js for current/legacy development and are hesitant to upgrade their Node.js version. To solve this problem, there are tools which support the installation of multiple Node.js versions and provide convenient commands for switching between the different versions. I personally use NVM on Linux with great success. Also, I have used NVM on macOS and it works great too. I have not used the one for Windows. While these are great tools, use them at your own risk.
+- On work computers many students are required to use an older version of Node.js for current/legacy development and are hesitant to upgrade their Node.js version. To solve this problem, there are tools which support the installation of multiple Node.js versions and provide convenient commands for switching between the different versions. I personally use NVM on Linux with great success. Also, we have used NVM on macOS and it works great too. I have not used the one for Windows. While these are great tools, use them at your own risk.
   - Mac & Linux: [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
   - Windows: [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
 
